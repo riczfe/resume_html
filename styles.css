@@ -3,12 +3,24 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(197, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    color: #3f3f3f;
+}
+
 .bold{
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
     margin-left: 10px;
-    color: rgb(100, 104, 96);
+    color: white;
 }
 
 .boldstyle {
@@ -16,13 +28,6 @@
     font-size: 16px;
     margin-left: 10px;
     color: white;
-}
-
-body {
-    background-color: #eee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 20px;
-    color: #3f3f3f;
 }
 
 ul.navbar {
@@ -77,7 +82,7 @@ ul.navbar a:hover {
 
 .resume .resume_left{
     width: 280px;
-    background:rgb(165, 170, 172)
+    background:rgb(1, 183, 238)
 }
 
 .resume .resume_left .resume_profile{
@@ -94,5 +99,29 @@ ul.navbar a:hover {
     padding: 0 25px;
 }
 
-.resume .resume_left .resume_content .resume_item {}
-.resume .resume_left .resume_content .resume_info{}
+.resume .title{
+    margin-bottom: 20px
+}
+.resume .resume_left .bold {
+    color: #fff;
+}
+
+.resume .resume_left .regular {
+    color: #b1eaff;
+}
+
+.resume .resume_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+
+.resume .resume_left .resume_item:last-child {
+    border-bottom: 0px
+}
+
+.resume .resume-left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
