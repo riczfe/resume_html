@@ -184,3 +184,7 @@ ul.navbar a:hover {
     background: #fff
 }
 
+footer {
+    width: 30rem;
+    color: white;
+}
