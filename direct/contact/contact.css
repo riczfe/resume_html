@@ -1,10 +1,10 @@
-:root {
-    --color-darkblue-alpha: rgba(27, 27, 50, 0.8)
-}
-
 * {
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8)
 }
 
 a {
