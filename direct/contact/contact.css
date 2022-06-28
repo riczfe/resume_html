@@ -141,15 +141,6 @@ header {
     margin-bottom: 0.5rem;
 }
 
-label {
-    text-align: center;
-    display: block;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-}
-
 @media (min-width: 480px) {
     form {
         padding: 2.5rem
@@ -177,4 +168,13 @@ form {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.3rem;
+}
+
+label {
+    text-align: center;
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
