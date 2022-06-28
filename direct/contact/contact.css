@@ -28,17 +28,6 @@ body {
     padding: 0;
 }
 
-label {
-    text-align: center;
-    display: block;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-}
-
-
-
 .bold{
     font-weight: 700;
     font-size: 20px;
@@ -168,7 +157,7 @@ form {
 .form-group {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
-}
+} 
 
 .form-control {
     display: inline-block;
@@ -179,4 +168,13 @@ form {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.3rem;
+}
+
+label {
+    text-align: center;
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
