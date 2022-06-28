@@ -1,26 +1,177 @@
-*{
-    font-family: segoe ui;
-    box-sizing: border-box;
+:root {
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8)
+}
+
+* {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 html {
-    display: block;
-    color: text;
+    scroll-behavior: smooth;
 }
 
-.header h1, p{
+body {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: white;
+}
+
+
+/*nav bar starts here */
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #50b0d6;
+    color: white;
+    font-weight: 500;
+}
+.brand {
+    width: auto;
+    height: 100%;
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+.menu {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.menu ul {
+    width: 100%;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             
+}
+.menu ul a {
+    width: 20%;
+    height: inherit;
+    color: #222;
+    display: inline-block;
+}
+.menu ul a:hover {
+    background-color: #fff;
+    color: black;
+}
+#menuToggle {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+/*Mobile devices support < 1280px*/
+@media screen and (max-width: 1280px) {
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .menu ul {
+        display: block;
+        max-height: 0;
+    	overflow: hidden;
+    	-webkit-transition: max-height 0.3s;
+    	-moz-transition: max-height 0.3s;
+        -ms-transition: max-height 0.3s;
+        -o-transition: max-height 0.3s;
+    	transition: max-height 0.3s;
+    }
+    .menu ul a {
+        text-align: left;
+        width: 100%;
+        height: 50px;
+        background-color: #50b0d6;
+        padding: 10px 0px 10px 5%;
+    }
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 60px;
+    }
+    #menuToggle:checked ~ ul {
+        max-height: 350px;
+    }
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+}
+
+.fb {
+    color: white;
+}
+
+/* Form section starts here */
+.text-center, .description {
+    text-align: center;
     margin-top: 0;
-    margin-bottom: 0.5rem
+    margin-bottom: 0.5rem;
 }
 
-.header h1 {
+@media (min-width: 480px) {
+    form {
+        padding: 2.5rem
+    }
+}
+
+form {
+    color: black;
+    border-radius: 0.4rem;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
     display: block;
-    font-size: 2em;
-    scroll-margin-block-start: 0.7rem;
-    margin-block-end: 0.7rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 400;
-    line-height: 1.2;
+    height: 2.3rem;
+    padding: 0.3rem 0.8rem;
+    color: #493057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.3rem;
 }
 
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
