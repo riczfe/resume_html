@@ -36,10 +36,6 @@ header {
     font-weight: 500;
 }
 
-section {
-    display: block;
-}
-
 footer {
     display: block
 }
@@ -130,13 +126,6 @@ footer {
     color: white;
 }
 
-.brand {
-    width: auto;
-    height: 100%;
-    float: left;
-    margin: 0 0 0 5%;
-}
-
 .welcome-section {
     display: flex;
     flex-direction: column;
@@ -147,3 +136,42 @@ footer {
     background-color: #000;
 }
 
+
+section {
+    display: block;
+}
+
+/* project section */
+.project-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: rgba(110, 204, 188, 0.7)
+}
+
+.project-section-header {
+    max-width: 700px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid white
+}
+
+/* take this element from google !!! */
+.project-grid {
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem
+}
+
+.btn-show-all {
+    font-size: 2rem;
+    background: gray;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
