@@ -136,12 +136,11 @@ footer {
     background-color: #000;
 }
 
-
+/* project section */
 section {
     display: block;
 }
 
-/* project section */
 .project-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -155,7 +154,7 @@ section {
 }
 
 /* take this element from google !!! */
-.project-grid {
+.projects-grid {
     display: grid;
     grid-gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
