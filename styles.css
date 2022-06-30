@@ -124,6 +124,10 @@ header {
     }
 }
 
+.toggle {
+    background-color: white;
+}
+
 .fb {
     color: white;
 }
