@@ -4,56 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
     <link rel="stylesheet" href="contact.css">
-</head> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <title>Contact Me</title>
+</head>
 <body>
-    <div class="container">
-        <header>
-            <figure class="brand">Kha Tran's Static Website Demonstration</figure>
-            <nav class="menu">
-                <input type="checkbox" id="menuToggle">
-                <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
-                <ul>
-                    <a href="https://riczfe.github.io/resume_html/"><li>CV</li></a>
-                    <a href="https://riczfe.github.io/resume_html/direct/project/project.html"><li>Projects</li></a>
-                    <a href="https://riczfe.github.io/resume_html/direct/blog/blog.html"><li>Blog</li></a>
-                </ul>
-            </nav>
-        </header>
-        <form id="contact-form">
-            <h1 class="text-center">CONTACT ME</h1>
-            <p class="description">Fill in your details below and I will contact you ASAP !!!!</p>
-            <fieldset>
-                <div class="form-group">
-                    <label id="name-label" for="name">Name</label>
-                    <input type="text" id="name" class="form-group" placeholder="Enter your name: " required/>
-                </div>
-                <div class="form-group">
-                    <label id="email-label" for="email">Email</label>
-                    <input type="text" id="email" class="form-group" placeholder="Enter your email: " 
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                    required/> 
-                </div>
-                <div class="form-group">
-                    <p>You are a:</p>
-                    <select id="dropdown" name="role" class="form-control" required>
-                        <option disabled selected value>Select your occupation below</option>
-                        <option value="student">Student</option>
-                        <option value="teacher">Teacher</option>
-                        <option value="worker">Worker</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <p>Any comments or things you would like to say?</p>
-                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" id="submit" class="submit-button">Submit</button>
-                </div>
-            </fieldset>     
-        </form>
-    </div>
+    <main>
+      <!--Nav bar now supports both PC and mobile-->
+      <header>
+        <figure class="brand">Kha Tran's Static Website Demonstration</figure>
+        <nav class="menu">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+            <ul>
+                <a href="index.html"><li>CV</li></a>
+                <a href="direct/project/project.html"><li>Projects</li></a>
+                <a href="direct/blog/blog.html"><li>Blog</li></a>
+                <a href="direct/contact/contact.html"><li>Contact Me</li></a>
+            </ul>
+        </nav>
+      </header>
+    </main>
 </body>
 </html>
