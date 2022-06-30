@@ -122,6 +122,11 @@ footer {
     }
 }
 
+.toggle {
+    transition: 0.2s;
+    background-color: white
+}
+
 .fb {
     color: white;
 }

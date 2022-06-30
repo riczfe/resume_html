@@ -123,3 +123,7 @@ header {
         font-size: 1.7em;
     }
 }
+
+.toggle {
+    background: white;
+}
