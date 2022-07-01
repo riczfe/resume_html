@@ -207,3 +207,12 @@ footer {
 .btn:hover {
     background:rgb(162, 218, 59)
 }
+
+footer {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgb(108, 192, 140);
+    border-top: 4px solid rgb(93, 164, 223);
+}
