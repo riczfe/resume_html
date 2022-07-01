@@ -1,6 +1,7 @@
 * {
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 a {
@@ -126,4 +127,40 @@ header {
 
 .toggle {
     background: white;
+}
+
+.form {
+    display: block;
+    font-family: Poppins, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem
+}
+
+.form-control {
+    display: block;
+    width: 40%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: rgb(98, 207, 131);
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+@media(min-width: 480px) {
+    form {
+        padding: 2.5rem;
+    }
 }
