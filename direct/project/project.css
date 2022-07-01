@@ -178,6 +178,32 @@ footer {
 }
 
 .project-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 2rem 0.5rem;
+}
+
+.project-title:hover {
+    color: rgb(162, 218, 59);
+    transition: color 0.2s
+}
+
+.code:hover {
+    color: rgb(162, 218, 59);
+    transition: color 0.2s
+}
+
+.btn-show-all {
+    font-size: 1.4rem;
+    background: gray;
+    transition: background 0.3s;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px
+}
+
+.btn:hover {
+    background:rgb(162, 218, 59)
 }
