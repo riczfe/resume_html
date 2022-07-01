@@ -361,3 +361,12 @@ header {
     line-height:  50px;
     color: white
 }
+
+footer {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgb(133, 226, 211);
+    border-top: 4px solid rgb(121, 235, 131);
+}

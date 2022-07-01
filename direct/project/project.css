@@ -6,6 +6,7 @@
 
 html {
     display: block;
+    box-sizing: border-box;
 }
 
 body {
@@ -142,40 +143,76 @@ footer {
 }
 
 /* project section */
-section {
-    display: block;
-}
-
-.project-section {
+.projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: rgba(110, 204, 188, 0.7)
-}
+    background: rgba(43, 137, 214, 0.5)
+} 
 
-.project-section-header {
-    max-width: 700px;
+.projects-section-header {
+    max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid white
+    border-bottom: 0.2rem solid white;
 }
 
-/* take this element from google !!! */
 .projects-grid {
     display: grid;
-    grid-gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem
 }
 
-.btn-show-all {
-    font-size: 2rem;
+.project {
     background: gray;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0 / 50%);
+    border-radius: 2px;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    font-size: 1.4rem;
+    padding: 2rem 0.5rem;
+}
+
+.project-title:hover {
+    color: rgb(162, 218, 59);
+    transition: color 0.2s
+}
+
+.code:hover {
+    color: rgb(162, 218, 59);
+    transition: color 0.2s
+}
+
+.btn-show-all {
+    font-size: 1.4rem;
+    background: gray;
+    transition: background 0.3s;
 }
 
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 2px;
+    border-radius: 2px
+}
+
+.btn:hover {
+    background:rgb(162, 218, 59)
+}
+
+footer {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgb(108, 192, 140);
+    border-top: 4px solid rgb(93, 164, 223);
 }

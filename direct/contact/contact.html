@@ -24,6 +24,59 @@
             </ul>
         </nav>
       </header>
+
+      <form id="survey-form">
+        <fieldset>
+          <div class="form-group">
+            <label class="name-label" for="name">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter your name: " required/>
+          </div>
+          <div class="form-group">
+            <label class="email-label" for="email">Email</label>
+            <input type="email" name="email" class="form-control" placeholder="Enter your email: " required/>
+          </div>
+          <div class="form-group">
+            <label class="number-label" for="number">Number</label>
+            <input type="number" name="number" class="form-control" pattern="[0-10]" placeholder="Enter your number: " required/>
+          </div>
+          <div class="form-group">
+            <p>You are a: </p>
+            <label>
+              <input name="occupation" value="student" type="radio" class="input-radio" checked/>
+              Student
+            </label> 
+            <label>
+              <input name="occupation" value="lecturer" type="radio" class="input-radio"/>
+              Lecturer
+            </label> 
+            <label>
+              <input name="occupation" value="worker" type="radio" class="input-radio" />
+              Worker
+            </label> 
+          </div>
+  
+          <div class="form-group">
+            <p>How would you like me to contact you?</p>
+            <label>
+              <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+              Email
+            </label>
+            <label>
+              <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+              Phone
+            </label>
+          </div>
+  
+          <div class="form-group">
+            <p>Any special queries for me ?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your queries here..."></textarea>
+          </div>
+  
+          <div class="form-group">
+            <button type="submit" class="submit-button"> Submit </button>
+          </div>
+        </fieldset>
+      </form>
     </main>
 </body>
 </html>
