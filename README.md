@@ -1,5 +1,4 @@
-# Eric Tran's Resume using HTML and CSS
- Assignment1_Web Programming
+# Eric Tran's STATIC Resume PAGE using HTML and CSS
 
 Feel free to visit my website via this link: https://riczfe.github.io/resume_html/
 
@@ -18,8 +17,7 @@ Here is a short instruction for using my website. To run:
 4. To move to other pages, simply click on any button appears on the navigation bar to move to other pages.
 5. If you want to contact me, simply fill in your information and press the Submit button.
 6. To see projects that I have done in the past, simply head towards the project section and choose any projects you would like to see.
-7. I am using Lorem to fill in my information since I want to keep everything anonymously. Sorry for this inconvinience :(
-8. Lastly, I am glad that you had time to visit my website and I hope you have a great day.
+7. Lastly, I am glad that you had time to visit my website and I hope you have a great day.
 
 
 Once again, thank you for your attention and I wish you have a great day!
